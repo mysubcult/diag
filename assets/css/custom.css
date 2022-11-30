@@ -1,0 +1,45 @@
+.link-ozon {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(175, 213, 252, 1) 0%,
+    rgba(108, 132, 242, 1) 50%,
+    rgba(42, 26, 165, 1) 100%
+  );
+}
+.link-yandex {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 70, 70, 1) 0%,
+    rgba(112, 102, 65, 1) 50%,
+    rgba(255, 204, 0, 1) 100%
+  );
+}
+.link-link {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(248, 61, 63, 1) 0%,
+    rgba(255, 102, 102, 1) 50%,
+    rgba(70, 70, 70, 1) 100%
+  );
+}
+.link-email {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(217, 219, 219, 1) 0%,
+    rgba(125, 125, 125, 1) 50%,
+    rgba(70, 70, 70, 1) 100%
+  );
+}
+.link-telegram {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(120, 219, 255, 1) 0%,
+    rgba(77, 205, 255, 1) 50%,
+    rgba(37, 163, 255, 1) 100%
+  );
+}
