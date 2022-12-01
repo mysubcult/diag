@@ -2,14 +2,14 @@ baseURL = "https://xn--80akpfvdka.xn--p1ai/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "SmartTech"
- copyright = "© 2022 SmartTech"
+title = "SmartDiag"
+ copyright = "© 2022 SmartDiag"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-  name = "SmartTech"
+  name = "SmartDiag"
   headline = "Мы рады приветствовать вас на сайте нашего магазина"
   image = "logo.png"  # path relative to static directory
 
