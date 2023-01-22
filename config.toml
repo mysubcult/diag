@@ -3,7 +3,7 @@ languageCode = "en"
 defaultContentLanguage = "en"
 
 title = "SmartDiag"
- copyright = "© 2022 SmartDiag"
+ copyright = "© 2022-2023 SmartDiag"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
