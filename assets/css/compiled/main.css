@@ -1441,7 +1441,7 @@ video {
 }
 
 .min-w-full {
-  min-width: 80%;
+  min-width: auto;
 }
 
 .max-w-7xl {
