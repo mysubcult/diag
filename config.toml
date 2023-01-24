@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
   name = "SmartDiag"
-  headline = "Мы рады приветствовать вас на сайте нашего магазина"
+  headline = "Мы рады приветствовать Вас на сайте нашего магазина"
   image = "logo.png"  # path relative to static directory
 
   links = [
