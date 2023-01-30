@@ -43,3 +43,12 @@
     rgba(37, 163, 255, 1) 100%
   );
 }
+.link-elm {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(120, 219, 255, 1) 0%,
+    rgba(77, 205, 255, 1) 50%,
+    rgba(37, 163, 255, 1) 100%
+  );
+}
