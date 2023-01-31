@@ -52,7 +52,7 @@ disableKinds = ["taxonomy", "term"]
     # { twitter = "https://twitter.com/username" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { youtube = "https://youtube.com/username" },
-   { email = { href = "feedback/", text = "Написать нам email", target = "_self" } },
+   { email = { href = "feedback/", text = "Обратная связь", target = "_self" } },
   ]
 
 [module]
