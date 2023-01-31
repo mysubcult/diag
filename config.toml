@@ -2,7 +2,7 @@ baseURL = "https://xn--80akpfvdka.xn--p1ai/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "SmartDiag"
+title = "SmartDiag - Ваш проводник в мире автодиагностики"
  copyright = "© 2022-2023 SmartDiag"
 
 enableEmoji = true
