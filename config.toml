@@ -16,7 +16,6 @@ disableKinds = ["taxonomy", "term"]
   links = [
      { link = "https://goo.su/LhLaC" },
      { elm = "https://goo.su/AdmgHJ" },
-     { vag = "https://goo.su/AdmgHJ" },
     # { ozon = "https://www.ozon.ru/seller/smart-tech-593268/products/?miniapp=seller_593268" },
     # { yandex = "https://market.yandex.ru/business--smart-tech/17135430" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
