@@ -6,3 +6,5 @@ title: Обратная связь
   links = [
      { link = "https://goo.su/LhLaC" },
      { elm = "https://goo.su/AdmgHJ" },
+   { email = { href = "feedback/", text = "Обратная связь", target = "_self" } },
+  ]
