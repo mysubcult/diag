@@ -1,10 +1,46 @@
----
-title: Link styles
----
+[author]
+  name = "SmartDiag"
+  headline = "Мы рады приветствовать Вас на сайте нашего магазина"
+  image = "logo.png"  # path relative to static directory
 
-These are all the built-in link styles available in Lynx. Don't forget that you can also create your own styles --- check the [readme](https://github.com/jpanther/lynx/blob/stable/README.md) for more details.
-<br><br>
-
-</section>
-<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0">
-{{< facebook >}}
+  links = [
+     { link = "https://goo.su/LhLaC" },
+     { elm = "https://goo.su/AdmgHJ" },
+    # { ozon = "https://www.ozon.ru/seller/smart-tech-593268/products/?miniapp=seller_593268" },
+    # { yandex = "https://market.yandex.ru/business--smart-tech/17135430" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://lastfm.com/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    { telegram = "https://t.me/smartdiag_robot" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { youtube = "https://youtube.com/username" },
+   { email = { href = "feedback/", text = "Обратная связь", target = "_self" } },
+  ]
