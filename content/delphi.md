@@ -7,5 +7,5 @@ These are all the built-in link styles available in Lynx. Don't forget that you 
 
 </section>
 <section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0">
-{{< links email >}}
-{{< links link >}}
+{{< link email >}}
+{{< link link >}}
