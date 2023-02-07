@@ -19,7 +19,7 @@
 }
 .link-link {
   background: rgb(131, 58, 180);
-  border: 2px solid #000000;
+  border: 2px dotted #000000;
   background: linear-gradient(
     90deg,
     rgba(248, 61, 63, 1) 0%,
