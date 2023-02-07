@@ -12,7 +12,6 @@
 /* Links */
 .link {
   @apply text-white bg-primary-700 hover:brightness-90;
-  border: 2px solid #e34761;
 }
 
 .link-amazon {
