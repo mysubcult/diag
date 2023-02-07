@@ -29,7 +29,7 @@
 }
 .link-email {
   background: rgb(131, 58, 180);
-  border: 2px solid #000000;
+  border: 2px dashed #000000;
   background: linear-gradient(
     90deg,
     rgba(217, 219, 219, 1) 0%,
