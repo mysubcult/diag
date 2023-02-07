@@ -62,6 +62,6 @@ disableKinds = ["taxonomy", "term"]
 # config/_default/config.toml
 
 # version 3
-googleAnalytics = "4606698753"
+googleAnalytics = "352748196"
 # version 4
 googleAnalytics = "G-B0FZEG9NGJ"
