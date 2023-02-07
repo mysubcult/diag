@@ -124,3 +124,21 @@
     rgba(150, 150, 150, 1) 100%
   );
 }
+.link-jaguar {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 70, 70, 1) 0%,
+    rgba(110, 110, 110, 1) 50%,
+    rgba(150, 150, 150, 1) 100%
+  );
+}
+.link-ford {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(70, 70, 70, 1) 0%,
+    rgba(110, 110, 110, 1) 50%,
+    rgba(150, 150, 150, 1) 100%
+  );
+}
