@@ -59,3 +59,9 @@ disableKinds = ["taxonomy", "term"]
   [module.hugoVersion]
     extended = false
     min = "0.86.1"
+# config/_default/config.toml
+
+# version 3
+googleAnalytics = "4606698753"
+# version 4
+googleAnalytics = "G-B0FZEG9NGJ"
