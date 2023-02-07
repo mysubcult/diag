@@ -2,4 +2,4 @@
 description: "This is a demo of the Lynx theme for Hugo."
 ---
 
-View the readme or check out all the link styles available using the links below.
+Здесь вы можете найти все необходимое для диагностики и обслуживания вашего автомобиля. Мы предоставляем высококачественное и надежное оборудование, которое поможет вам провести быстрый и эффективный анализ и ремонт вашего автомобиля.
