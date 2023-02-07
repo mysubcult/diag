@@ -135,6 +135,7 @@
 }
 .link-ford {
   background: rgb(131, 58, 180);
+  border: 2px solid #e34761;
   background: linear-gradient(
     90deg,
     rgba(70, 70, 70, 1) 0%,
