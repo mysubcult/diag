@@ -56,9 +56,9 @@
   background: rgb(131, 58, 180);
   background: linear-gradient(
     90deg,
-    rgba(248, 61, 63, 1) 0%,
-    rgba(255, 102, 102, 1) 50%,
-    rgba(70, 70, 70, 1) 100%
+    rgba(127, 127, 127, 1) 0%,
+    rgba(176, 176, 176, 1) 50%,
+    rgba(208, 208, 208, 1) 100%
   );
 }
 .link-bmw {
