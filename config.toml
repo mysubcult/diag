@@ -2,6 +2,8 @@ baseURL = "https://xn--80akpfvdka.xn--p1ai/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
+googleAnalytics = "G-B0FZEG9NGJ"
+
 title = "SmartDiag - Ваш проводник в мире автодиагностики"
  copyright = "© 2022-2023 SmartDiag"
 
@@ -59,9 +61,3 @@ disableKinds = ["taxonomy", "term"]
   [module.hugoVersion]
     extended = false
     min = "0.86.1"
-# config/_default/config.toml
-
-# version 3
-googleAnalytics = "352748196"
-# version 4
-googleAnalytics = "G-B0FZEG9NGJ"
