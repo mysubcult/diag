@@ -22,6 +22,7 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
    <label>Тема сообщения:</label>
         <select name="entry.1065046570" id="topics" class="form-input" required>
           <option value="Вопрос о товаре">Вопрос о товаре</option>
+          <option value="Вопрос о товаре">Активация прибора</option>
           <option value="Помощь с установкой ПО">Помощь с установкой ПО</option>
           <option value="Сообщить о проблеме">Сообщить о проблеме</option>
           <option value="Другое">Другое</option>
