@@ -2,6 +2,7 @@
   class="link link-{{ .Get 0 }} sm:px-24 min-w-full py-2 mb-3 text-lg rounded text-center"
   href="{{ .Get 2 }}"
   onclick="navigator.clipboard.writeText({{ .Get 0 }})"
+  target="_blank"
 >
   <span class="mr-1">{{ partial "icon.html" (.Get 0) }}</span>
   {{ .Get 1 }}
