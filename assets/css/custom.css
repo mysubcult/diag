@@ -47,6 +47,9 @@
     rgba(37, 163, 255, 1) 100%
   );
 }
+.link-whatsapp {
+  border: 2px solid #000000;
+}
 .link-elm {
   background: rgb(131, 58, 180);
   border: 2px solid #000000;
