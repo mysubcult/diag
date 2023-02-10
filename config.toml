@@ -50,7 +50,7 @@ disableKinds = ["taxonomy", "term"]
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/username" },
     # { twitter = "https://twitter.com/username" },
-    # { whatsapp = "https://wa.me/phone-number" },
+    { whatsapp = "https://wa.me/79050199522" },
     # { youtube = "https://youtube.com/username" },
    { email = { href = "feedback/", text = "Обратная связь", target = "_self" } },
   ]
