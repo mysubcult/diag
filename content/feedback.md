@@ -2,7 +2,7 @@
 title: Обратная связь
 ---
 
-{{< rawhtml >}}Наша команда постоянно на связи и в максимально короткие сроки отвечает на письма. Ответ на Вашу заявку не займет более 12 часов. Однако если у Вас возникнут крайне срочные вопросы, Вы можете написать нам в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a> или <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a> и получить на них ответ в ближайшее время.
+{{< rawhtml >}}Наша команда постоянно на связи и в максимально короткие сроки отвечает на сообщения. Ответ на Вашу заявку не займет более 12 часов. Однако если у Вас возникнут крайне срочные вопросы, Вы можете написать нам в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a> или <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a> и получить на них ответ в ближайшее время.
 <link rel="stylesheet" href="/css/form.css">
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
