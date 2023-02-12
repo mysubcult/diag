@@ -64,11 +64,6 @@ body {
 3. Ensure horizontal rules are visible by default.
 */
 
-    .tocha__launch-button {
-        right: 100px;
-        width: 300px;
-    }
-
 hr {
   height: 0;
   /* 1 */
