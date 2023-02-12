@@ -42,12 +42,5 @@ document.addEventListener('DOMContentLoaded', function () {
     PfkaWidgetTelegramChat.mount({"hash":"f51bb75d8a57b147db090e5e11948f8a","data":[]});
 });
 </script>
-<script type="text/javascript">
-    (function() {
-        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-        po.src = 'https://assist-line.com/chat.js?tlgchat_id=txO9Ntk4ozJ3zjyvHdKVVA3uvOwPir3r&category=&subcategory=';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-</script>
 {{< /rawhtml >}}
 
