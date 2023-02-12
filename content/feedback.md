@@ -42,5 +42,19 @@ document.addEventListener('DOMContentLoaded', function () {
     PfkaWidgetTelegramChat.mount({"hash":"f51bb75d8a57b147db090e5e11948f8a","data":[]});
 });
 </script>
+<script> 
+    window.intergramId = "389669884";
+    window.intergramCustomizations = {
+        titleClosed: 'Closed chat title',
+        titleOpen: 'Opened chat title',
+        introMessage: 'Здравствуйте. Укажите номер вашего заказа и ваш вопрос и мы обязательно с вами свяжемся в ближайшее время.',
+        autoResponse: 'A message that is sent immediately after the user sends its first message',
+        autoNoResponse: 'A message that is sent one minute after the user sends its first message ' +
+                        'and no response was received',
+        mainColor: "#E91E63", // Can be any css supported color 'red', 'rgb(255,87,34)', etc
+        alwaysUseFloatingButton: false // Use the mobile floating button also on large screens
+    };
+</script>
+<script id="intergram" type="text/javascript" src="https://www.intergram.xyz/js/widget.js"></script>
 {{< /rawhtml >}}
 
