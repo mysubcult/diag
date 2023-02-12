@@ -34,5 +34,12 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
    <button type="submit">Отправить</button>
 </form>
+<script type="text/javascript">
+    (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://assist-line.com/chat.js?tlgchat_id=CXq2W9XmHaNTTQtFSe884RbV0wxsdBz2&category=&subcategory=';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
 {{< /rawhtml >}}
 
