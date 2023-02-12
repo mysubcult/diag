@@ -42,5 +42,11 @@ document.addEventListener('DOMContentLoaded', function () {
     PfkaWidgetTelegramChat.mount({"hash":"f51bb75d8a57b147db090e5e11948f8a","data":[]});
 });
 </script>
+<script>
+window.replainSettings = { id: 'ab0fafd3-0ed4-4605-9083-b287b59aac7e' };
+(function(u){var s=document.createElement('script');s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 {{< /rawhtml >}}
 
