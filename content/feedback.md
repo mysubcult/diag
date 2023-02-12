@@ -35,7 +35,7 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
    <button type="submit">Отправить</button>
 </form>
 <script> 
-    window.intergramId = "389669884";
+    window.intergramId = "-1001532830256";
     window.intergramCustomizations = {
         titleClosed: 'Closed chat title',
         titleOpen: 'Opened chat title',
