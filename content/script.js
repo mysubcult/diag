@@ -12,7 +12,7 @@
 	if (color == undefined || color == '') {
 		link.href = loc + 'css/widget.css';
 	} else {
-		link.href = loc + 'css/widget-'+color+'.css';
+		link.href = loc + 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
 	}
 
     link.media = 'all';
