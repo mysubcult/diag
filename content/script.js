@@ -3,7 +3,7 @@
 	var id = "scw-63hsuwee8";
 	var color = document.getElementById(id).getAttribute("data-color");
 	var type = document.getElementById(id).getAttribute("data-widgettype");
-    var loc = 'https://suitecall.com:8980/static/';
+    var loc = 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
     var head = document.getElementsByTagName('head')[0];
     var link = document.createElement('link');
     var hiddenGreeting = true;//mobileAndTabletcheck();
