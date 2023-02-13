@@ -10,9 +10,9 @@
     link.rel = 'stylesheet';
     link.type = 'text/css';
 	if (color == undefined || color == '') {
-		link.href = loc + 'css/widget.css';
+		link.href = 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
 	} else {
-		link.href = loc + 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
+		link.href = 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
 	}
 
     link.media = 'all';
