@@ -42,7 +42,7 @@
     }
     text += '<div class="scw-hint hidden" id="scw-hint-greeting" '+posHint+'><div class="scw-hint-content">Здравствуйте! Будем рады вам помочь! </div></div>';
     if (type == 0 || type == 1) {
-    	text += '<div class="scw-button scw-button-chat" id="scw-button-chat"><div class="scw-logo-status" id="scw-logo-status"></div><div class="scw-logo-unreads" id="scw-logo-unreads" style="display: none;"></div><div class="scw-logo"><img src="' + loc + 'img/chat1.png"></div></div>';
+    	text += '<div class="scw-button scw-button-chat" id="scw-button-chat"><div class="scw-logo-unreads" id="scw-logo-unreads" style="display: none;"></div><div class="scw-logo"><img src="' + loc + 'img/chat1.png"></div></div>';
     }
     if (type == 0 || type == 2) {
     	text += '<div class="scw-button scw-button-phone" id="scw-button-phone"><div class="scw-logo"><img src="' + loc + 'img/phone1.png"></div></div>';
