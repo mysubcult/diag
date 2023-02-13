@@ -3,16 +3,16 @@
 	var id = "scw-63hsuwee8";
 	var color = document.getElementById(id).getAttribute("data-color");
 	var type = document.getElementById(id).getAttribute("data-widgettype");
-    var loc = 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
+    var loc = 'https://xn--80aajcuv3afm.xn--p1ai/';
     var head = document.getElementsByTagName('head')[0];
     var link = document.createElement('link');
     var hiddenGreeting = true;//mobileAndTabletcheck();
     link.rel = 'stylesheet';
     link.type = 'text/css';
 	if (color == undefined || color == '') {
-		link.href = 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
+		link.href = loc + 'css/widget.css';
 	} else {
-		link.href = 'https://xn--80aajcuv3afm.xn--p1ai/widget-red.css';
+		link.href = loc + 'css/widget-'+color+'.css';
 	}
 
     link.media = 'all';
