@@ -2,7 +2,7 @@
 title: Обратная связь
 ---
 
-{{< rawhtml >}}<script type="text/javascript" src="https://suitecall.com:8980/static/script.js" async id="scw-63hsuwee8" data-token="2cdd820f9c04fc86b96b4a83a72d97d5" data-color="red"  data-widgettype="1" ></script>Наша команда постоянно на связи, мы прилагаем все усилия, чтобы ответить на ваши сообщения максимально быстро. Ответ на вашу заявку не займет более 12 часов. Если у вас есть крайне срочные вопросы, пожалуйста, пишите нам в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a> или <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a>, и мы постараемся ответить на них в течение кратчайшего времени.
+{{< rawhtml >}}<script type="text/javascript" src="https://suitecall.com:8980/static/script.js" async id="scw-63hsuwee8" data-token="2cdd820f9c04fc86b96b4a83a72d97d5" data-color="red"  data-widgettype="1" ></script>Наша команда постоянно на связи, мы прилагаем все усилия, чтобы ответить на ваши сообщения максимально быстро. Ответ на вашу заявку не займет более 12 часов. Если у вас есть крайне срочные вопросы, пожалуйста, пишите нам в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a>, <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a> или в онлайн чат на сайте, и мы постараемся ответить на них в течение кратчайшего времени.
 <link rel="stylesheet" href="/css/form.css">
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
