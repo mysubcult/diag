@@ -2,7 +2,7 @@
 title: Обратная связь
 ---
 
-{{< rawhtml >}}<script type='text/javascript'>
+{{< rawhtml >}}<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0"><script type='text/javascript'>
           (function(){
               let s = document.createElement('script');
               s.type = 'text/javascript';
