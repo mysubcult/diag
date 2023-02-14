@@ -2,17 +2,7 @@
 title: Обратная связь
 ---
 
-{{< rawhtml >}}<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0"><script type='text/javascript'>
-          (function(){
-              let s = document.createElement('script');
-              s.type = 'text/javascript';
-              s.async = true;
-              s.src = encodeURI('https://tocha.online/21d63f3465409bfbb712ea53638715a5/widget.js');
-              let ss = document.getElementsByTagName('script')[0];
-              ss.parentNode.insertBefore(s, ss);
-          })();
-</script>
-<telegram-web-chat></telegram-web-chat></section>Наша команда постоянно на связи, мы прилагаем все усилия, чтобы ответить на ваши сообщения максимально быстро. Ответ на вашу заявку не займет более 12 часов. Если у вас есть крайне срочные вопросы, пожалуйста, пишите нам в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a>, <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a> или в онлайн чат на сайте, и мы постараемся ответить на них в течение кратчайшего времени.
+{{< rawhtml >}}Наша команда постоянно на связи, мы прилагаем все усилия, чтобы ответить на ваши сообщения максимально быстро. Ответ на вашу заявку не займет более 12 часов. Если у вас есть крайне срочные вопросы, пожалуйста, пишите нам в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a>, <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a> или в онлайн чат на сайте, и мы постараемся ответить на них в течение кратчайшего времени.
 <link rel="stylesheet" href="/css/form.css">
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
@@ -45,4 +35,14 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
    <button type="submit">Отправить</button>
 </form>
 {{< /rawhtml >}}
-
+{{< rawhtml >}}<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0"><script type='text/javascript'>
+          (function(){
+              let s = document.createElement('script');
+              s.type = 'text/javascript';
+              s.async = true;
+              s.src = encodeURI('https://tocha.online/21d63f3465409bfbb712ea53638715a5/widget.js');
+              let ss = document.getElementsByTagName('script')[0];
+              ss.parentNode.insertBefore(s, ss);
+          })();
+</script>
+<telegram-web-chat></telegram-web-chat>{{< /rawhtml >}}
