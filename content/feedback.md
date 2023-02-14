@@ -36,7 +36,7 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 </form></section>
 <section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0">
 {{< /rawhtml >}}
-{{< rawhtml >}}<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0"><script type='text/javascript'>
+{{< rawhtml >}}<script type='text/javascript'>
           (function(){
               let s = document.createElement('script');
               s.type = 'text/javascript';
