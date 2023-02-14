@@ -9,5 +9,4 @@
               ss.parentNode.insertBefore(s, ss);
           })();
 </script>
-<telegram-web-chat></telegram-web-chat></section>
-{{< /rawhtml >}}
+<telegram-web-chat></telegram-web-chat>{{< /rawhtml >}}
