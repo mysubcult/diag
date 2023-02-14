@@ -33,7 +33,8 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
         <textarea rows="5" placeholder="Введите текст сообщения" class="form-input" name="entry.839337160" required></textarea>
 
    <button type="submit">Отправить</button>
-</form>
+</form></section>
+<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0">
 {{< /rawhtml >}}
 {{< rawhtml >}}<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0"><script type='text/javascript'>
           (function(){
