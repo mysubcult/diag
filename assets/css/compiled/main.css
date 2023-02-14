@@ -405,7 +405,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 */
 
 .tocha__fast_message-line[data-v-4b9cc8ad] {
-  border-radius: 0 6px 6px 6px;
+  border-radius: 6px 6px 6px 6px;
 }
 
 img,
