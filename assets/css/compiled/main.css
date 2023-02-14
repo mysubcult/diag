@@ -404,10 +404,6 @@ object {
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
 
-.tocha__fast_message-line[data-v-4b9cc8ad] {
-  border-radius: 6px 6px 6px 6px;
-}
-
 img,
 video {
   max-width: 100%;
