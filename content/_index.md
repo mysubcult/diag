@@ -1,5 +1,4 @@
-Здесь Вы можете найти все необходимое для диагностики и обслуживания вашего автомобиля. Мы предоставляем высококачественное и надежное оборудование, которое поможет вам провести быстрый и эффективный анализ и ремонт вашего автомобиля.
-{{< rawhtml >}}<section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0"><script type='text/javascript'>
+Здесь Вы можете найти все необходимое для диагностики и обслуживания вашего автомобиля. Мы предоставляем высококачественное и надежное оборудование, которое поможет вам провести быстрый и эффективный анализ и ремонт вашего автомобиля.{{< rawhtml >}}</section><section class="flex flex-col flex-wrap min-w-full mt-4 sm:min-w-0"><script type='text/javascript'>
           (function(){
               let s = document.createElement('script');
               s.type = 'text/javascript';
@@ -8,5 +7,4 @@
               let ss = document.getElementsByTagName('script')[0];
               ss.parentNode.insertBefore(s, ss);
           })();
-</script>
-<telegram-web-chat></telegram-web-chat>{{< /rawhtml >}}
+</script>{{< /rawhtml >}}
