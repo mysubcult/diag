@@ -1659,3 +1659,8 @@ video {
     padding-right: 8rem;
   }
 }
+
+.tocha__send-button svg[data-v-be36f090] {
+    width: 50px;
+    height: 50px;
+}
