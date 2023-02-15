@@ -1477,7 +1477,7 @@ video {
 }
 
 .rounded {
-  border-radius: 16px;
+  border-radius: 0.4rem;
 }
 
 .py-2 {
