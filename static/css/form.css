@@ -21,6 +21,12 @@ outline:0;
 
 .form-input:focus { border:2px solid #CC4949; }
 
+.tocha__new-message textarea[data-v-5a2d04ba] {
+    font-family: Trebuchet MS,Helvetica,Arial,sans-serif;
+    resize: none;
+    height: 14px;
+}
+
 textarea {
 height: 150px;
 line-height: 150%;
