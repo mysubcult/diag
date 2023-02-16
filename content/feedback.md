@@ -34,13 +34,5 @@ method="post" target="hidden_iframe" onsubmit="submitted=true;">
 
    <button type="submit">Отправить</button>
 </form>
-<script>var LHC_API = LHC_API||{};
-LHC_API.args = {mode:'widget',lhc_base_url:'//smartdiag.livehelperchat.com/',wheight:450,wwidth:350,pheight:520,pwidth:500,leaveamessage:true,check_messages:false,lang:'rus/'};
-(function() {
-var po = document.createElement('script'); po.type = 'text/javascript'; po.setAttribute('crossorigin','anonymous'); po.async = true;
-var date = new Date();po.src = '//smartdiag.livehelperchat.com/design/defaulttheme/js/widgetv2/index.js?'+(""+date.getFullYear() + date.getMonth() + date.getDate());
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-})();
-</script>
 {{< /rawhtml >}}
 
