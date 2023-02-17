@@ -89,15 +89,13 @@
   {{ if templates.Exists "partials/extend-head.html" }}
     {{ partialCached "extend-head.html" .Site }}
   {{ end }}
-  <link href="https://tocha.online/build/chat.2a5e93d01111111111.css" rel="stylesheet" type="text/css"><script type='text/javascript'>
-          (function(){
-              let s = document.createElement('script');
-              s.type = 'text/javascript';
-              s.async = true;
-              s.src = encodeURI('https://tocha.online/21d63f3465409bfbb712ea53638715a5/widget.js');
-              let ss = document.getElementsByTagName('script')[0];
-              ss.parentNode.insertBefore(s, ss);
-          })();
-</script>  
+<script>var LHC_API = LHC_API||{};
+LHC_API.args = {mode:'widget',lhc_base_url:'https://xn----7sbabnedajkp5ap8aokkew.xn--p1ai/index.php/',wheight:450,wwidth:350,pheight:520,pwidth:500,leaveamessage:true,theme:"1",check_messages:false,lang:'rus/'};
+(function() {
+var po = document.createElement('script'); po.type = 'text/javascript'; po.setAttribute('crossorigin','anonymous'); po.async = true;
+var date = new Date();po.src = 'https://xn----7sbabnedajkp5ap8aokkew.xn--p1ai/design/defaulttheme/js/widgetv2/index.js?'+(""+date.getFullYear() + date.getMonth() + date.getDate());
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
 </head>
 <telegram-web-chat></telegram-web-chat>
