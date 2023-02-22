@@ -1630,7 +1630,7 @@ video {
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 540px) {
   .sm\:min-w-0 {
     min-width: 0px;
   }
