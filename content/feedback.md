@@ -2,7 +2,8 @@
 title: Обратная связь
 ---
 
-{{< rawhtml >}}<p align="center">Наша команда постоянно на связи, мы прилагаем все усилия, чтобы ответить на ваши сообщения максимально быстро. Ответ на вашу заявку не займет более 12 часов. Если у вас есть срочные вопросы, пожалуйста, напишите нам в онлайн чат на сайте. Так же мы доступны в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a> и <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a>.</p>
+{{< rawhtml >}}<p align="center">Наша команда постоянно на связи, мы прилагаем все усилия, чтобы ответить на ваши сообщения максимально быстро. Ответ на вашу заявку не займет более 12 часов. Если у вас есть срочные вопросы, пожалуйста, напишите нам в онлайн чат на сайте.
+Так же мы доступны в <a href="https://t.me/smartdiag_robot" target="_blank">Telegram</a> и <a href="https://wa.me/message/XVMV4LKBTXB4E1" target="_blank">WhatsApp</a>.</p>
 <link rel="stylesheet" href="/css/form.css">
 <script type="text/javascript">var submitted=false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
