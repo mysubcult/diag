@@ -1,5 +1,5 @@
 ---
-description: "This is a demo of the Lynx theme for Hugo."
+description: "Ваш проводник в мире автосканеров"
 ---
 
 View the readme or check out all the link styles available using the links below.
