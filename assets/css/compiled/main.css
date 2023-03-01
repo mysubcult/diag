@@ -913,6 +913,7 @@ video {
   --tw-prose-invert-th-borders: #6b7280;
   --tw-prose-invert-td-borders: #374151;
   font-size: 1rem;
+  text-align: center;
   line-height: 1.75;
 }
 
