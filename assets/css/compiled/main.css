@@ -950,23 +950,23 @@ video {
 }
 
 .prose :where(.prose > ul > li > *:first-child):not(:where([class~="not-prose"] *)) {
-  margin-top: 1.25em;
+  margin-top: 0.25em;
 }
 
 .prose :where(.prose > ul > li > *:last-child):not(:where([class~="not-prose"] *)) {
-  margin-bottom: 1.25em;
+  margin-bottom: 0.25em;
 }
 
 .prose :where(.prose > ol > li > *:first-child):not(:where([class~="not-prose"] *)) {
-  margin-top: 1.25em;
+  margin-top: 0.25em;
 }
 
 .prose :where(.prose > ol > li > *:last-child):not(:where([class~="not-prose"] *)) {
-  margin-bottom: 1.25em;
+  margin-bottom: 0.25em;
 }
 
 .prose :where(ul ul, ul ol, ol ul, ol ol):not(:where([class~="not-prose"] *)) {
-  margin-top: 0.75em;
+  margin-top: 0.0em;
   margin-bottom: 0.75em;
 }
 
