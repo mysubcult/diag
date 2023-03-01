@@ -1011,7 +1011,6 @@ video {
 
 .prose :where(.prose > :first-child):not(:where([class~="not-prose"] *)) {
   margin-top: 0;
-  text-align: center;
 }
 
 .prose :where(.prose > :last-child):not(:where([class~="not-prose"] *)) {
