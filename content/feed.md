@@ -56,7 +56,7 @@ title: Обратная связь
                     </ul>
                 </div>
                     <div class="contactForm">
-                        <h2>Send a Message</h2>
+                        <h2>Обратная связь</h2>
                         <div class="formBox">
                         <div class="inputBox w50">
                             <input type="text" name="" required>
