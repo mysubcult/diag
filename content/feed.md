@@ -60,7 +60,7 @@ title: Обратная связь
                         <div class="formBox">
                         <div class="inputBox w50">
                             <input type="text" name="" required>
-                            <span>First Name</span>
+                            <span>Ваше имя</span>
                         </div>
                         <div class="inputBox w50">
                             <input type="text" required>
