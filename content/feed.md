@@ -75,7 +75,6 @@ title: Обратная связь
           <option value="Сообщить о проблеме">Сообщить о проблеме</option>
           <option value="Другое">Другое</option>
         </select>
-<span>Mobile Number</span>
                         </div>
                         <div class="inputBox w50">
                             <input type="text" required>
