@@ -19,7 +19,7 @@ title: Обратная связь
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
     </style>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     </head>
     <body>
         <section>
