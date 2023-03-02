@@ -12,7 +12,7 @@ title: Обратная связь
     <link rel="stylesheet" href="reset.css" />
 
     <!-- Подключение файла стилей -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Форма обратной связи</title>
   </head>
   <body>
