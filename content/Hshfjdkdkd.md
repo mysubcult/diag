@@ -1,5 +1,8 @@
-  {{< rawhtml >}}<!DOCTYPE html>
-<html lang="ru">
+---
+title: Обратная связь
+---
+
+{{< rawhtml >}}<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
