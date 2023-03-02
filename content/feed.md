@@ -67,8 +67,7 @@ title: Обратная связь
                             <span>Last Name</span>
                         </div>
                         <div class="inputBox w50">
-                            <input type="text" required>
-                            <select name="entry.1065046570" id="topics" class="form-input" required>
+                            <input type="text" required select name="entry.1065046570" id="topics" class="form-input" required>
           <option value="Вопрос о товаре">Вопрос о товаре</option>
           <option value="Вопрос о товаре">Активация прибора</option>
           <option value="Помощь с установкой ПО">Помощь с установкой ПО</option>
