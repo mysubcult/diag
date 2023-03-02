@@ -1,340 +1,171 @@
-/* @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); */
+/* Подключение шрифта Roboto */
+@import url("https:/*fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+/* Убираем все отступы */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-section
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #095a55;
-
-}
-section::before
-{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background: #fff38e;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
 
-.container
-{
-    position: relative;
-    min-width: 1100px;
-    min-height: 550px;
-    display: flex;
-    z-index: 1000;
-    /* border-radius: 22px; */
-    /* background-color: #fff; */
-
+/* При расчете размеров инпутов учитываем внутренние отступы и границы */
+input,
+textarea {
+  box-sizing: border-box;
 }
 
-.container .contactInfo
-{
-    position: absolute;
-    top: 40px;
-    width: 350px;
-    height: calc(100% - 80px);
-    background: #095a55;
-    z-index: 1;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 20px 25px rgba(0,0,0,0.15); 
-    border-radius: 22px;
+/* В body устанавливаем шрифт, ширину и высоту, а также фон */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #fff1eb, #ace0f9);
+  display: flex;
+  justify-content: center; /* чтобы контейнер */
+  align-items: center; /* был по центру */
 }
 
-.container .contactInfo h2
-{
-    color: #fff;
-    font-size:24px;
-    font-weight: 500;
+/* Ограничиваем контейнер по ширине 1000px */
+.container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
 }
 
-.container .contactInfo ul.info 
-{
-   position: relative;
-   margin: 20px 0; 
+/* Стили самой формы */
+.content {
+  display: flex; /* делаем колонки в ряд */
+  align-items: center; /* выравниваем по центру */
+  justify-content: space-between; /* колонки растянутся на всю ширину */
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
 }
 
-.container .contactInfo ul.info li
-{
-   position: relative;
-   list-style: none;
-   display: flex;
-   margin: 20px 0;
-   cursor: pointer;
-   align-items: flex-start;
+/* Стили левой колонки */
+.left-side {
+  width: 25%; /* занимает 25% общей ширины */
+  height: 100%; /* растягиваем на всю высоту */
+  position: relative; /* позиционирование относительное (для ::before) */
+  display: flex;
+  flex-direction: column; /* внутри элементы располагаем в колонку */
 }
 
-.container .contactInfo ul.info li span:nth-child(1)
-{
-    width: 30px;
-    min-width: 30px;
+/* Стили разделительной линии между левой и правой колонкой */
+.left-side::before {
+  content: ""; /* контент нам не нужен */
+  position: absolute; /* позиционируем относительно .left-side */
+  height: 70%; /* высота 70% от .left-side */
+  width: 2px; /* ширина 2px */
+  background: #afafb6;
+  right: -15px; /* позиционируем справа + отступ 15px (справа) */
+  top: 50%; /* выравниваем по центру */
+  transform: translateY(-50%); /* выравниваем по центру */
 }
 
-/* for gmail */
-.container .contactInfo ul.info li span a
-{
-    color: #fff;
-    text-decoration: none;
-    width: 30px;
-    min-width: 30px;
-    
+/* Стили правой колонки */
+.right-side {
+  width: 75%; /* занимает 75% общей ширины */
+  margin-left: 75px;
 }
 
-.container .contactInfo ul.info li span:nth-child(1) img
-{
-    max-width: 100%;
-    filter: invert(1);
+/* Элементы левой колонки: адрес, телефон, email */
+.details {
+  margin-bottom: 15px;
+  text-align: center;
 }
 
-.container .contactInfo ul.info li span:nth-child(2)
-{
-    color: #fff;
-    margin-left: 10px;
-    font-weight: 300;
+/* Общие стили для иконок */
+.details i {
+  font-size: 25px; /* задаем размер */
+  color: #3e2093; /* задаем цвет */
+  margin-bottom: 10px;
 }
 
-.container .contactInfo ul.sci
-{
-    position: relative;
-    display: flex;
+/* Стили для заголовков левой колонки */
+.topic {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 7px; /* отступ снизу 7px */
 }
 
-.container .contactInfo ul.sci li
-{
-   list-style: none;  
-   margin-right: 15px;
+/* Стили для текста левой колонки */
+.text-one,
+.text-two {
+  font-size: 14px;
+  color: #afafb6;
 }
 
-.container .contactInfo ul.sci li a
-{
-   text-decoration: none;
+/* Заголовок правой колонки */
+.topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+  margin-bottom: 10px;
 }
 
-.container .contactInfo ul.sci li a img
-{
-   filter: invert(1);
+/* Текст правой колонки */
+.right-side p {
+  margin-bottom: 20px;
 }
 
-.container .contactForm
-{
-    position: absolute;
-    padding: 70px 50px;
-    padding-left: 250px;
-    margin-left: 150px;
-    width: calc(100% - 150px);
-    height: 100%;
-    background: #fff; 
-    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
-    border-radius: 22px;
+/* Контейнер для input'ов формы */
+.input-box {
+  height: 50px; /* по сути задаем высоту input'а */
+  width: 100%; /* ширина на всю ширину правой колонки (с учетом padding) */
+  margin-bottom: 20px; /* отступаем снизу 20px */
 }
 
-.container .contactForm h2
-{
-    color: #0f3959;
-    font-size: 24px;
-    font-weight: 500;
+/* Стили для input и textarea (поле сообщение) */
+.input-box input,
+.input-box textarea {
+  height: 100%; /* растягиваем на всю высоту контейнера 50px */
+  width: 100%; /* растягиваем на всю ширину */
+  border: none; /* убираем внешние края */
+  border-radius: 5px; /* скругляем края */
+  background: #f0f1f8; /* задаем цвет фона */
+  padding: 0 20px; /* отступ справа и слева 20px */
 }
 
-.container .contactForm .formBox
-{
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 30px;
+/* Отдельно стилизуем поле сообщение */
+.input-box textarea {
+  resize: none; /* чтобы нельзя было менять высоту */
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
-.container .contactForm .formBox .inputBox
-{
-    position: relative;
-    margin-bottom: 35px;
+/* Это контейнер для поля сообщение */
+.message-box {
+  min-height: 110px; /* минимальная высота 110px */
 }
 
-.container .contactForm .formBox .inputBox.w50
-{
-    width: 47%;
+/* Стили для контейнера кнопки */
+.button {
+  display: inline-block; /* делаем блочно-строчный элемент */
 }
 
-.container .contactForm .formBox .inputBox.w100
-{
-    width: 100%;
+/* Стили для самой кнопки */
+.button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  background: #3e2093;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
 }
 
-.container .contactForm .formBox .inputBox input,
-.container .contactForm .formBox .inputBox textarea 
-{
-    width: 100%;
-    resize: none;
-    padding: 5px 0;
-    font-size: 18px;
-    font-weight: 300;
-    color: #333;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #777;
-}
-
-.container .contactForm .formBox .inputBox textarea 
-{
-    height: 120px;
-}
-
-.container .contactForm .formBox .inputBox span 
-{
-    position: absolute;
-    left: 0;
-    padding: 5px 0;
-    pointer-events: none;
-    font-size: 18px;
-    font-weight: 300;
-    transition: 0.3s;
-}
-
-.container .contactForm .formBox .inputBox input:focus ~ span,
-.container .contactForm .formBox .inputBox input:valid ~ span,
-.container .contactForm .formBox .inputBox textarea:focus ~ span, 
-.container .contactForm .formBox .inputBox textarea:valid ~ span
-{
-    transform: translateY(-20px);
-    font-size:  12px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #095a55;
-    font-weight: 500;
-} 
-
-/* Css for the submit button */
-.container .contactForm .formBox .inputBox input[type="submit"]         
-{
-    position: relative;
-    cursor: pointer;
-    background: #095a55;
-    border-radius: 20px;
-    color: #fff;
-    border: none;
-    max-width: 150px;
-    padding: 12px;
-
-}
-
-.container .contactForm .formBox .inputBox input[type="submit"]:hover{
-    background: #0d9480;
-}
-
-/* make the form responsive */
-@media (max-width: 1200px)
-{
-    .container
-    {
-        width: 90%;
-        min-width: auto;
-        margin: 20px;
-        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
-    }
-
-    .container .contactInfo
-    {
-        top: 0;
-        height: 550px;
-        position: relative;
-        box-shadow: none;
-        border-radius: 0px;
-    }
-
-    .container .contactForm
-    {
-        position: relative;
-        width: calc(100% - 350px);
-        padding-left: 0;
-        margin-left: 0;
-        padding: 40px;
-        height: 550px;
-        box-shadow: none;
-        border-radius: 0px;
-    }
-}
-
-@media (max-width: 991px)
-{
-    section
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background: #fff38e;
-    }
-
-    section::before
-    {
-        display: none;
-    }
-
-    .container
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .container .contactForm
-    {
-        width: 100%;
-        height: auto;
-        border-radius: 0px;
-    }
-
-    .container .contactInfo
-    {
-        width: 100%;
-        height: auto;
-        flex-direction: row;
-        border-radius: 0px;
-    }
-    .container .contactInfo ul.sci
-    {
-       position: relative;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-    }
-}
-
-@media (max-width: 600px)
-{
-    .container .contactForm
-    {
-        padding: 25px;
-    }
-
-    .container .contactInfo{
-        padding: 25px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .container .contactInfo ul.sci
-    {
-        margin-top: 40px;
-    }
-
-    .container .contactForm .formBox .inputBox.w50
-    {
-        width: 100%;
-    }
+/* Меняем цвет фона при наведении на кнопку */
+.button input[type="button"]:hover {
+  background: rgb(0, 0, 207);
 }
