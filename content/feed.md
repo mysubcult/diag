@@ -2,93 +2,90 @@
 title: Обратная связь
 ---
 
-{{< rawhtml >}}<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{{< rawhtml >}}<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact Us - Responsive Page Design</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/news2.png"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="contactInfo"> 
+                    <div>
+                        <h2>Contact Info</h2>
+                        <ul class="info">
+                            <li>
+                                <span><img src="/images/location.png"></span>
+                                <span>184 Ippokratous Street<br>
+                                    Athens, Gr<br>
+                                    11472</span>
+                                </span>
+                            </li>
+                            <li>
+                                <span><img src="/images/mail.png"></span>
+                                <!-- <span>nassosanagn@gmail.com</span> -->
+                                <span><a href = "mailto: nassosanagn@gmail.com">nassosanagn@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <span><img src="/images/call.png"></span>
+                                <span>702-279-3488</span>
+                            </li>
 
-    <!-- Подключение сброса стилей -->
-    <link rel="stylesheet" href="reset.css" />
-
-    <!-- Подключение файла стилей -->
-    <link rel="stylesheet" href="/style.css" />
-    <title>Форма обратной связи</title>
-  </head>
-  <body>
-
-    <!-- Контейнер выравнивает по ширине и по центру -->
-    <div class="container">
-
-      <!-- content содержит содержимое формы -->
-      <div class="content">
-
-        <!-- Левая колонка: адрес, телефоны, email. Можете добавить свое -->
-        <div class="left-side">
-          <div class="address details">
-
-            <!-- Вместо классов: название шрифтовых иконок (fontawesome.com) -->
-            <i class="fas fa-map-marker-alt"></i>
-
-            <!-- topic - заголовок, text-one, text-two - текст -->
-            <div class="topic">Адрес</div>
-            <div class="text-one">г. Москва</div>
-            <div class="text-two">Пресненская наб., 8 стр. 1</div>
-          </div>
-          <div class="phone details">
-            <i class="fas fa-phone-alt"></i>
-            <div class="topic">Телефон</div>
-            <div class="text-one">8-800-000-00-00</div>
-            <div class="text-two">8-900-000-00-00</div>
-          </div>
-          <div class="email details">
-            <i class="fas fa-envelope"></i>
-            <div class="topic">Email</div>
-            <div class="text-one">support@site.com</div>
-            <div class="text-two">admin@site.com</div>
-          </div>
-        </div>
-
-        <!-- Правая колонка: сама форма -->
-        <div class="right-side">
-
-          <!-- Заголовок для формы -->
-          <div class="topic-text">Отправьте нам сообщение</div>
-
-          <!-- Какой-то дополнительный текст -->
-          <p>
-            Если у вас есть какие-то вопросы или предложения по сотрудничеству -
-            заполните форму ниже
-          </p>
-
-          <!-- Форма обратной связи -->
-          <form action="#">
-
-            <!-- Каждый input для выравнивания вкладываем в блок input-box -->
-            <div class="input-box">
-              <input type="text" placeholder="Ваше имя" />
-            </div>
-            <div class="input-box">
-              <input type="text" placeholder="Введите email" />
-            </div>
-            <div class="input-box">
-              <input type="text" placeholder="Введите телефон" />
-            </div>
-            <div class="input-box message-box">
-              <textarea placeholder="Сообщение"></textarea>
-            </div>
-            <div class="button">
-              <input type="button" value="Отправить" />
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <!-- Подключение шрифтовых иконок, можно получить на fontawesome.com -->
-    <script
-      src="https://kit.fontawesome.com/fce9a50d02.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html{{< /rawhtml >}}
+                        </ul>
+                    </div>
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/nassosanagn/"><img src="/images/1.png"></a></li>
+                        <li><a href="https://www.instagram.com/nassosanagn_/?hl=el"><img src="/images/3.png"></a></li>
+                        <li><a href="https://twitter.com/nassosanagn"><img src="/images/2.png"></a></li>
+                        <li><a href="https://www.linkedin.com/in/nassos-anagnostopoulos-2b9631196/"><img src="/images/5.png"></a></li>
+                        
+                    </ul>
+                </div>
+                    <div class="contactForm">
+                        <h2>Send a Message</h2>
+                        <div class="formBox">
+                        <div class="inputBox w50">
+                            <input type="text" name="" required>
+                            <span>First Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="email" required>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="inputBox w50">
+                            <input type="text" required>
+                            <span>Mobile Number</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <textarea required></textarea>
+                            <span>Write your message here...</span>
+                        </div>
+                        <div class="inputBox w100">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                </div>
+                    
+                    
+             
+        </section>
+    </body>
+</html>{{< /rawhtml >}}
