@@ -68,13 +68,13 @@ title: Обратная связь
                         </div>
                         <div class="inputBox w50">
                             <input type="email" required>
-                            <span><select name="entry.1065046570" id="topics" class="form-input" required>
+                            <select name="entry.1065046570" id="topics" class="form-input" required>
           <option value="Вопрос о товаре">Вопрос о товаре</option>
           <option value="Вопрос о товаре">Активация прибора</option>
           <option value="Помощь с установкой ПО">Помощь с установкой ПО</option>
           <option value="Сообщить о проблеме">Сообщить о проблеме</option>
           <option value="Другое">Другое</option>
-        </select></span>
+        </select>
                         </div>
                         <div class="inputBox w50">
                             <input type="text" required>
