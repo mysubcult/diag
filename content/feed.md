@@ -1,4 +1,4 @@
-  {{< rawhtml >}} <html>
+  {{< rawhtml >}}<html>
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +32,7 @@
                             </li>
                             <li>
                                 <span><img src="/images/mail.png"></span>
-                                <!-- <span>nassosanagn@gmail.com</span> -->
+                                <span>nassosanagn@gmail.com</span>
                                 <span><a href = "mailto: nassosanagn@gmail.com">nassosanagn@gmail.com</a></span>
                             </li>
                             <li>
@@ -78,9 +78,6 @@
                         </div>
                     </div>
                 </div>
-                    
-                    
-             
-        </section>
+             </section>
     </body>
 </html>{{< /rawhtml >}}
