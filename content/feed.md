@@ -67,7 +67,7 @@ title: Обратная связь
                             <span>Last Name</span>
                         </div>
                         <div class="inputBox w50">
-                            
+                            <input type="text" required>
                             <select name="entry.1065046570" id="topics" class="form-input" required>
           <option value="Вопрос о товаре">Вопрос о товаре</option>
           <option value="Вопрос о товаре">Активация прибора</option>
@@ -75,6 +75,7 @@ title: Обратная связь
           <option value="Сообщить о проблеме">Сообщить о проблеме</option>
           <option value="Другое">Другое</option>
         </select>
+<span>Mobile Number</span>
                         </div>
                         <div class="inputBox w50">
                             <input type="text" required>
