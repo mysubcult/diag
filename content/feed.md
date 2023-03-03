@@ -2,35 +2,86 @@
 title: Обратная связь
 ---
 
-{{< rawhtml >}}<div class="container">
-  <div class="form-container">
-    <div class="left-container">
-      <div class="left-inner-container">
-      <h2>Let's Chat</h2>
-      <p>Whether you have a question, want to start a project or            simply want to connect.</p>
-        <br>
-        <p>Feel free to send me a message in the contact form</p>
+{{< rawhtml >}}<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Responsive Material Form v.2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1> Responsive Material Form v.2</h1>
+<section class="contact-wrap">
+  <form class="material-form" action="#">
+    <div class="input-block floating-field">
+      <label>First Name</label>
+      <input value="" type="text" class="form-control">
     </div>
-      </div>
-    <div class="right-container">
-      <div class="right-inner-container">
-        <form action="#">
-			<h2 class="lg-view">Contact</h2>
-      <h2 class="sm-view">Let's Chat</h2>
-           <p>* Required</p>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-			</div>
-          <input type="text" placeholder="Name *"  />
-      <input type="email" placeholder="Email *" />
-			<input type="text" placeholder="Company" />
-			<input type="phone" placeholder="Phone" />
-          <textarea rows="4" placeholder="Message"></textarea>
-			<button>Submit</button>
-		</form>
+    <div class="input-block floating-field error">
+      <label>Email ID</label>
+      <input value="your@email.com" type="text" class="form-control">
+    </div>
+    <div class="error-label">Email ID already exists.</div>
+    <div class="input-block">
+      <input placeholder="Enter Something" value="Non-Floating Field" type="text" class="form-control">
+    </div>
+    <div class="select-block">
+      <label>Drop Down</label>
+      <div class="custom-select">
+        <div class="active-list">Australia</div>
+        <input type="text" class="list-field" value="Australia" />
+        <ul class="drop-down-list">
+          <li>Australia</li>
+          <li>India</li>
+          <li>UAE</li>
+          <li>USA</li>
+        </ul>
       </div>
     </div>
-  </div>
-</div>{{< /rawhtml >}}
+    <div class="form-note">Some notes, Lorem ipsum dolor sit amet.</div>
+    <div class="select-block">
+      <label>Dropdown 1</label>
+      <div class="custom-select">
+        <div class="active-list">0</div>
+        <input type="text" class="list-field" value="0" />
+        <ul class="drop-down-list">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+      </div>
+    </div>
+    <div class="select-block">
+      <label>Dropdown 2</label>
+      <div class="custom-select">
+        <div class="active-list">0</div>
+        <input type="text" class="list-field" value="0" />
+        <ul class="drop-down-list">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+      </div>
+    </div>
+    <div class="input-block floating-field textarea">
+      <label>Drop your message here</label>
+      <textarea rows="3" class="form-control"></textarea>
+    </div>
+    <button class="btn square-button material-btn">Send</button>
+  </form>
+</section>
+
+<!-- follow me template -->
+<div class="made-with-love">
+  <a target="_blank" href="https://codepen.io/nikhil8krishnan">Nikhil Krishnan</a> | copyright &copy; 2016 | All rights reserved.
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="/script.js"></script>
+
+</body>
+</html>
+{{< /rawhtml >}}
