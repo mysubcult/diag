@@ -80,7 +80,7 @@ title: Обратная связь
   <a target="_blank" href="https://codepen.io/nikhil8krishnan">Nikhil Krishnan</a> | copyright &copy; 2016 | All rights reserved.
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="/script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="/script2.js"></script>
 
 </body>
 </html>
