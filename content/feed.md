@@ -6,22 +6,19 @@ title: Обратная связь
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Responsive Material Form v.2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/style.css">
-
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<h1> Responsive Material Form v.2</h1>
 <section class="contact-wrap">
   <form class="material-form" action="#">
     <div class="input-block floating-field">
-      <label>First Name</label>
+      <label>Имя</label>
       <input value="" type="text" class="form-control">
     </div>
     <div class="input-block floating-field error">
       <label>Email ID</label>
-      <input value="your@email.com" type="text" class="form-control">
+      <input value="" type="text" class="form-control">
     </div>
     <div class="error-label">Email ID already exists.</div>
     <div class="input-block">
