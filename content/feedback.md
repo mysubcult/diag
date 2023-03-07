@@ -10,7 +10,7 @@ onload="if(submitted) {window.location='/thankyou';}"></iframe>
 <form action="https://docs.google.com/forms/d/e/1FAIpQLScvH7c2oDa9ksNClTZOPCTGgzShJ7fzPA0KiV_uUic_frGcRg/formResponse" 
 method="post" target="hidden_iframe" onsubmit="submitted=true;">
 </form><form action="https://docs.google.com/forms/d/e/1FAIpQLScvH7c2oDa9ksNClTZOPCTGgzShJ7fzPA0KiV_uUic_frGcRg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true">
-  <div align="left"><label>Ваше имя:</label></div>
+  <label>Ваше имя:</label>
         <input type="text" placeholder="Введите ваше имя" class="form-input" name="entry.2005620554" required>
 
   <label>Email:</label>
