@@ -1,67 +1,59 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 form {
-max-width: 420px;
-margin: 20px auto;
+  max-width: 420px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .form-input {
-font-family: 'Montserrat', sans-serif;
-font-weight: 500;
-font-size: 18px;
-border-radius: 5px;
-line-height: 22px;
-background-color: transparent;
-border: 2px solid #f83d3f;
-transition: all 0.3s;
-padding: 13px;
-margin-bottom: 15px;
-width: 100%;
-box-sizing: border-box;
-outline: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #f83d3f;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
 .form-input:focus {
-border: 2px solid #CC4949;
+  border: 2px solid #CC4949;
 }
 
 textarea {
-font-family: 'Montserrat', sans-serif;
-font-size: 18px;
-border-radius: 5px;
-line-height: 150%;
-background-color: transparent;
-border: 2px solid #f83d3f;
-transition: all 0.3s;
-padding: 13px;
-margin-bottom: 15px;
-width: 100%;
-box-sizing: border-box;
-outline: 0;
-resize: vertical;
-}
-
-textarea:focus {
-border: 2px solid #CC4949;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
 }
 
 [type="submit"] {
-font-family: 'Montserrat', sans-serif;
-width: 100%;
-background: #f83d3f;
-border-radius: 5px;
-border: 0;
-cursor: pointer;
-color: white;
-font-size: 24px;
-padding-top: 10px;
-padding-bottom: 10px;
-transition: all 0.3s;
-margin-top: -4px;
-font-weight: 700;
-text-transform: uppercase;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #f83d3f;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
 [type="submit"]:hover {
-background: #CC4949;
+  background: #CC4949;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
