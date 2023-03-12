@@ -1,60 +1,67 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-.form-container {
-  max-width: 500px;
-  margin: 50px auto;
-  background-color: #f9f9f9;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  padding: 30px;
-  font-family: 'Montserrat', sans-serif;
+form {
+max-width: 420px;
+margin: 20px auto;
 }
 
 .form-input {
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #666;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+font-size: 18px;
+border-radius: 5px;
+line-height: 22px;
+background-color: transparent;
+border: 2px solid #f83d3f;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 15px;
+width: 100%;
+box-sizing: border-box;
+outline: 0;
 }
 
 .form-input:focus {
-  border-color: #00b4cc;
-  outline: none;
+border: 2px solid #CC4949;
 }
 
-.form-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #666;
-  resize: vertical;
+textarea {
+font-family: 'Montserrat', sans-serif;
+font-size: 18px;
+border-radius: 5px;
+line-height: 150%;
+background-color: transparent;
+border: 2px solid #f83d3f;
+transition: all 0.3s;
+padding: 13px;
+margin-bottom: 15px;
+width: 100%;
+box-sizing: border-box;
+outline: 0;
+resize: vertical;
 }
 
-.form-textarea:focus {
-  border-color: #00b4cc;
-  outline: none;
+textarea:focus {
+border: 2px solid #CC4949;
 }
 
-.form-submit {
-  background-color: #00b4cc;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 12px 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+[type="submit"] {
+font-family: 'Montserrat', sans-serif;
+width: 100%;
+background: #f83d3f;
+border-radius: 5px;
+border: 0;
+cursor: pointer;
+color: white;
+font-size: 24px;
+padding-top: 10px;
+padding-bottom: 10px;
+transition: all 0.3s;
+margin-top: -4px;
+font-weight: 700;
+text-transform: uppercase;
 }
 
-.form-submit:hover {
-  background-color: #0086a8;
+[type="submit"]:hover {
+background: #CC4949;
 }
