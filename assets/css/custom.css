@@ -18,14 +18,14 @@
   );
 }
 .link-link {
-  background: rgb(131, 58, 180);
-  border: 2px solid #000000;
-  background: linear-gradient(
-    90deg,
-    rgba(248, 61, 63, 1) 0%,
-    rgba(255, 102, 102, 1) 50%,
-    rgba(70, 70, 70, 1) 100%
-  );
+background: rgb(255, 196, 0);
+border: 2px solid #444444;
+background: linear-gradient(
+90deg,
+rgba(255, 196, 0, 1) 0%,
+rgba(255, 255, 255, 1) 50%,
+rgba(57, 169, 221, 1) 100%
+);
 }
 .link-email {
   background: rgb(131, 58, 180);
