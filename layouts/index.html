@@ -10,12 +10,12 @@
           {{ $resource = resources.Get $src }}
         {{ end }}
         {{ with $resource }}
-          {{ $src = (.Fill "300x200").RelPermalink }}
+          {{ $src = (.Fill "256x117").RelPermalink }}
         {{ end }}
         <img
           class="mb-2 rounded-none h-auto w-auto"   
-          width="256"
-          height="117"
+          width="300"
+          height="150"
           alt="{{ $.Site.Author.name | default "Author" }}"
           src="{{ $src }}"
         />
